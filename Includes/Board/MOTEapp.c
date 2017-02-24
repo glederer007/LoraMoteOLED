@@ -893,7 +893,7 @@ static MOTE_RUNNING_T moteRunningProcess(bool changeStates, bool selectButton, b
                     // Toggle Red to indicate available Rx; Clear Green to show Tx sent
                     LED_RED_LAT = 1;
                     LED_GREEN_LAT = LED_OFF;
-                    // Indicate on oLED
+                    // Indicate on oLED 
                     oled_putString("C Class Message ",0,2);
                     oled_putString("    Received    ",0,3);
                     runningState = runningDownlink;
